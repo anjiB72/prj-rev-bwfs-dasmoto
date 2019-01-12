@@ -1,0 +1,56 @@
+/**
+start of css file
+Author: Angela Boakes
+Date: 12/01/2019
+**/
+
+/**sets font-family for all text elements in html document**/
+h1,
+h2,
+h3,
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+/**sets background image on heading**/
+#heading {
+  background-image: url("../images/pattern.jpeg");
+  background-repeat: no-repeat;
+}
+
+/**sets font details for main heading**/
+#heading h1{
+  font-size: 100px;
+  color: khaki;
+  font-weight: bold;
+}
+
+/**sets styling for brushes heading**/
+#brushes h2{
+  background-color: mediumspringgreen;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/**sets styling for frames heading**/
+#frames h2{
+  background-color: lightcoral;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/**sets styling for paint heading**/
+#paint h2{
+  background-color: skyblue;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/**sets style for span element within the paragraphs**/
+span {
+  font-weight: bold;
+  color: blue;
+}
